@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/nexon_lv2_gothic_bold"
+        android:fontStyle="normal"
+        android:fontWeight="500"
+        />
+
+    <font
+        android:font="@font/nexon_lv2_gothic_medium"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/bareundotum1"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/bareundotum2"
+        android:fontStyle="normal"
+        android:fontWeight="500"/>
+
+    <font
+        android:font="@font/bareundotum3"
+        android:fontStyle="normal"
+        android:fontWeight="500"/>
+
+    <font
+        android:font="@font/nanumbarungothic"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/nanumbarungothiclight"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/nanumbarunhothicbold"
+        android:fontStyle="normal"
+        android:fontWeight="500"/>
+
+    <font
+        android:font="@font/nanumsquarer"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/nanumsquarel"
+        android:fontStyle="normal"
+        android:fontWeight="400"/>
+
+    <font
+        android:font="@font/nanumbarunhothicbold"
+        android:fontStyle="normal"
+        android:fontWeight="450"/>
+
+
+</font-family>
