@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\register_routine.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\register_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login_setting.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\login_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\noti_setting.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\noti_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ask_setting.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\ask_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_predict.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\fragment_predict.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\join_setting.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\livewindow-android\\app\\src\\main\\res\\layout\\join_setting.xml"
+    }
+]

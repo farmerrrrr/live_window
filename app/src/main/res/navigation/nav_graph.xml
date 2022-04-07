@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.finedust.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/ventSystemFragement"
+        android:name="com.example.finedust.fragments.VentSystem"
+        android:label="fragment_vent_system"
+        tools:layout="@layout/fragment_vent_system" />
+
+    <fragment
+        android:id="@+id/predictFragment"
+        android:name="com.example.finedust.fragments.Predict"
+        android:label="fragment_predict"
+        tools:layout="@layout/fragment_predict" />
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.finedust.fragments.Setting"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

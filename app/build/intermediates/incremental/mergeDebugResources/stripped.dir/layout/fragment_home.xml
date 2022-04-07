@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/group_27"
+            android:layout_width="95dp"
+            android:layout_height="70.86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/ic_group_27" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/bareundotum3"
+            android:gravity="top"
+            android:text="미세먼지 측정 정보"
+            android:textAppearance="@style/main_title" />
+
+        <View
+            android:id="@+id/underline_sub"
+            android:layout_width="130dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="153dp"
+            android:background="@drawable/rectangle_2" />
+
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="227dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="147dp"
+            android:gravity="top"
+            android:text="미세먼지 측정 기준이 궁금하신가요?"
+            android:textColor="#4C4C4E"
+            android:textSize="14sp" />
+
+        <!--위치 설정 버튼!-->
+
+        <View
+            android:id="@+id/location_btn"
+            android:layout_width="332dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/location_btn"
+            android:elevation="10dp" />
+
+        <View
+            android:id="@+id/location_view"
+            android:layout_width="132dp"
+            android:layout_height="18.59dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="189.41dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/location_icon"
+            android:layout_width="21dp"
+            android:layout_height="18.51dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="189.41dp"
+            android:background="@drawable/location_img" />
+
+        <TextView
+            android:id="@+id/lo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="191dp"
+            android:fontFamily="@font/nanumsquarer"
+            android:gravity="top"
+            android:textColor="@color/font_main"
+            android:textSize="14sp" />
+
+
+        <!--미세먼지 정보!-->
+
+
+        <TextView
+            android:id="@+id/indoor_air"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="268dp"
+            android:fontFamily="@font/nanumsquareb"
+            android:gravity="top"
+            android:text="실내 공기"
+            android:textColor="@color/font_main"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/outdoor_air"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="268dp"
+            android:fontFamily="@font/nanumsquareb"
+            android:gravity="top"
+            android:text="실외 공기"
+            android:textColor="@color/font_main"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/indoor"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="306dp"
+            android:fontFamily="@font/nanumbarunhothicbold"
+            android:gravity="top"
+            android:text="24"
+            android:textColor="@color/main_color"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/outdoor"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="306dp"
+            android:fontFamily="@font/nanumbarunhothicbold"
+            android:gravity="top"
+            android:textColor="@color/main_color"
+            android:textSize="40sp" />
+
+        <View
+            android:id="@+id/info_line"
+            android:layout_width="0dp"
+            android:layout_height="118dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="275dp"
+            android:background="@drawable/info_line" />
+
+        <!-- 구분 line !-->
+        <View
+            android:id="@+id/vector_43"
+            android:layout_width="334dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="356dp"
+            android:layout_marginTop="416dp"
+            android:background="@drawable/division_line" />
+
+
+        <!-- 날씨 section !-->
+        <TextView
+            android:id="@+id/weather_title"
+            android:layout_width="126dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="433dp"
+            android:fontFamily="@font/bareundotum2"
+            android:gravity="top"
+            android:text="오늘의 날씨"
+            android:textColor="@color/font_main"
+            android:textSize="19sp" />
+
+        <View
+            android:id="@+id/weather_box"
+            android:layout_width="332dp"
+            android:layout_height="137dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="472dp"
+            android:background="@drawable/info_box"
+            android:elevation="10dp" />
+
+        <!-- 구분 line !-->
+        <View
+            android:id="@+id/vector_44"
+            android:layout_width="334dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="356dp"
+            android:layout_marginTop="632dp"
+            android:background="@drawable/division_line" />
+
+        <!-- 현재 환기 상태 !-->
+
+        <TextView
+            android:id="@+id/window_title"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="649dp"
+            android:fontFamily="@font/bareundotum2"
+            android:gravity="top"
+            android:text="현재 환기 상태"
+            android:textColor="@color/font_main"
+            android:textSize="19sp" />
+
+        <View
+            android:id="@+id/window_box"
+            android:layout_width="332dp"
+            android:layout_height="51dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="688dp"
+            android:background="@drawable/window_info_box"
+            android:elevation="10dp" />
+
+        <View
+            android:id="@+id/group_31"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="705dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:id="@+id/window_status"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="705dp"
+            android:fontFamily="@font/nanumsquarer"
+            android:gravity="top"
+            android:text="창문 닫힘 상태"
+            android:textColor="@color/font_main"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/switch_box"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="239dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="694dp"
+            android:background="#00000000"
+            />
+
+        <com.github.angads25.toggle.widget.LabeledSwitch
+            android:id="@+id/window_switch"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="239dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="694dp"
+            android:textSize="14sp"
+            app:colorBorder="@color/main_color"
+            app:on="false" />
+
+        <View
+            android:id="@+id/vector_45"
+            android:layout_width="334dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="356dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="768dp"
+            android:background="@drawable/division_line"
+            />
+
+        <!--루틴 등록 버튼!-->
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="801dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/register_box"
+            android:elevation="10dp"
+            />
+
+        <View
+            android:id="@+id/group_33"
+            android:layout_width="105dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="812dp"
+            android:background="#00000000"
+            />
+
+        <TextView
+            android:id="@+id/register_rt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="812dp"
+            android:fontFamily="@font/nanumsquareb"
+            android:text="환기 루틴 설정하기"
+            android:textColor="@color/font_main"
+            android:textSize="14sp"
+            android:gravity="top"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

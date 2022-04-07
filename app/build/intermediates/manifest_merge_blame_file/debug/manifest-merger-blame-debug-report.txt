@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.finedust"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:4:4-80
+11-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:4:21-77
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:6:22-64
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <application
+28-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:8:5-27:19
+29        android:allowBackup="true"
+29-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:9:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-3\567795c2b2966b05e5032ec97342bcd7\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:10:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:11:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:15:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:12:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:13:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+39-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:16:9-65
+40        android:usesCleartextTraffic="true" >
+40-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:14:9-44
+41        <activity android:name="com.example.finedust.MainActivity" >
+41-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:17:9-22:20
+41-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:17:19-47
+42            <intent-filter>
+42-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:18:13-21:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:19:17-69
+43-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:19:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:20:17-77
+45-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:20:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.example.finedust.RegisterRoutine" />
+48-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:23:9-53
+48-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:23:19-50
+49        <activity android:name="com.example.finedust.Login" />
+49-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:24:9-42
+49-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:24:19-40
+50        <activity android:name="com.example.finedust.Ask" />
+50-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:25:9-40
+50-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:25:19-38
+51        <activity android:name="com.example.finedust.Join" />
+51-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:26:9-41
+51-->C:\Users\user\AndroidStudioProjects\livewindow-android\app\src\main\AndroidManifest.xml:26:19-39
+52        <!-- Needs to be explicitly declared on P+ -->
+53        <uses-library
+53-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+54            android:name="org.apache.http.legacy"
+54-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+55            android:required="false" />
+55-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\user\.gradle\caches\transforms-3\c576790e4adcdd227e30b0694bc7d102\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user\.gradle\caches\transforms-3\b2ce2d6fb3635ff047e0eb729210b7dd\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user\.gradle\caches\transforms-3\b2ce2d6fb3635ff047e0eb729210b7dd\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user\.gradle\caches\transforms-3\b2ce2d6fb3635ff047e0eb729210b7dd\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user\.gradle\caches\transforms-3\b2ce2d6fb3635ff047e0eb729210b7dd\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\e6b3c11ec01a8ffb8e77e36a32f06f8b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\e6b3c11ec01a8ffb8e77e36a32f06f8b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\e6b3c11ec01a8ffb8e77e36a32f06f8b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+65    </application>
+66
+67</manifest>

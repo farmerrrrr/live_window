@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FineDust</string>
+    <string name="add_routine_first">환기 루틴 등록하기</string>
+    <string name="predict_explation">*자체 개발한 AI를 기반으로 미세먼지 농도를 예측합니다.\n*학습에 자체 측정 데이터와 공공 API 데이터를 이용하였습니다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ask_explain_1">*어플을 사용하면서 불편하시거나, 문의하고 싶은 사항이 있으시다면, 아래 메일 주소로 문의해 주세요. </string>
+    <string name="ask_explain_2">신속하게 검토 후 답변 드리도록 하겠습니다:)</string>
+    <string name="mld_email">mld2018@gmail.com</string>
+</resources>

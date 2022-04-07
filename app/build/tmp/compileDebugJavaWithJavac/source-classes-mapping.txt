@@ -1,0 +1,20 @@
+com/example/finedust/databinding/FragmentHomeBinding.java
+ com.example.finedust.databinding.FragmentHomeBinding
+com/example/finedust/databinding/FragmentSettingBinding.java
+ com.example.finedust.databinding.FragmentSettingBinding
+com/example/finedust/databinding/NotiSettingBinding.java
+ com.example.finedust.databinding.NotiSettingBinding
+com/example/finedust/databinding/FragmentPredictBinding.java
+ com.example.finedust.databinding.FragmentPredictBinding
+com/example/finedust/databinding/RegisterRoutineBinding.java
+ com.example.finedust.databinding.RegisterRoutineBinding
+com/example/finedust/databinding/ActivityMainBinding.java
+ com.example.finedust.databinding.ActivityMainBinding
+com/example/finedust/databinding/JoinSettingBinding.java
+ com.example.finedust.databinding.JoinSettingBinding
+com/example/finedust/BuildConfig.java
+ com.example.finedust.BuildConfig
+com/example/finedust/databinding/LoginSettingBinding.java
+ com.example.finedust.databinding.LoginSettingBinding
+com/example/finedust/databinding/AskSettingBinding.java
+ com.example.finedust.databinding.AskSettingBinding
