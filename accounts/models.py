@@ -1,11 +1,9 @@
 from django.db import models
 
-# 완료
 class User(models.Model):
     userID = models.CharField(max_length=128, null=False, primary_key=True)
     password = models.CharField(max_length=128, null=False)
     
-# 완료   
 class Device(models.Model):
     serialNumber = models.CharField(max_length=128, null=False, primary_key=True)
     userID = models.CharField("User", max_length=128, null=True, on_delete=models.SET_NULL, db_column="userID")
