@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'control.apps.ControlConfig',
     'measure.apps.MeasureConfig',
-    'rest_famework',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'livewindow.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }

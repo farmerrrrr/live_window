@@ -6,5 +6,5 @@ class User(models.Model):
     
 class Device(models.Model):
     serialNumber = models.CharField(max_length=128, null=False, primary_key=True)
-    userID = models.CharField("User", max_length=128, null=True, on_delete=models.SET_NULL, db_column="userID")
+    userID = models.ForeignKey("User", max_length=128, null=True, on_delete=models.SET_NULL, db_column="userID")
     use = models.CharField(max_length=10, null=False)
