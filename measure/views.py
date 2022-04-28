@@ -19,6 +19,3 @@ class MeasureView(View):
 
     def put(self, request):
         return HttpResponse("Put 요청을 잘받았다")
-
-    def delete(self, request):
-        return HttpResponse("Delete 요청을 잘받았다")

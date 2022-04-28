@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'control.apps.ControlConfig',
     'measure.apps.MeasureConfig',
+    'rest_famework',
 ]
 
 MIDDLEWARE = [

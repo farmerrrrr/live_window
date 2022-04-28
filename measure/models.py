@@ -1,7 +1,7 @@
 from django.db import models
 
-# Create your models here.
+# 완료
 class Measurer(models.Model):
-    serialNumber = models.CharField(max_length=128, null=False)
+    serialNumber = models.CharField("Device", max_length=128, null=False, on_delete=models.CASCADE, primary_key=True, db_column="serialNumber")
     amount = models.FloatField(null=True)
-    timestamp = models.DateTimeField(null=False)
+    timestamp = models.DateTimeField(null=True)
