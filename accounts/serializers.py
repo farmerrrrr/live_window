@@ -7,7 +7,7 @@ class UserSerializer(serializers.ModelSerializer) :
         model = User
         fields = '__all__'
         
-class DeviceSerializer(serializers.ModelSerializer) :
+class generalSerializer(serializers.ModelSerializer) :
     class Meta :
         model = Device
-        fields = '__all__'
+        fields = ['userID', 'serialNumber']
